@@ -27,6 +27,10 @@ h2{
     margin: 10px 0;
     text-align: center;
 }
+h1:hover,h2:hover{
+    color: aqua;
+    text-shadow: 2px 2px 4px purple;
+}
 /*Section Separator */
 hr{
     border: 2px solid brown;
@@ -58,6 +62,10 @@ li .price{
 /* Footer  */
 footer a{
     color:black;
+}
+a:hover{
+    color: purple;
+
 }
 address{
     text-align: center;
